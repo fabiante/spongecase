@@ -11,11 +11,11 @@ Inspired by: https://knowyourmeme.com/memes/mocking-spongebob
 #### CLI - Piping string into STDIN
 
 ```shell script
-echo "I don't even know her like that" | spongecase
+echo "This will definately build my reputation as a software developer" | spongecase
 ```
 
 #### CLI - Passing string as argument
 
 ```shell script
-spongecase "I don't even know her like that"
+spongecase "This will definately build my reputation as a software developer"
 ```
