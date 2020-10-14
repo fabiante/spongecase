@@ -2,7 +2,7 @@
 
 > Inspired by: https://knowyourmeme.com/memes/mocking-spongebob
 
-This is both a Go module and a command line tool converts strings into "Sponge Case".
+[![Actions Status](https://github.com/FabianTe/spongecase/workflows/Go/badge.svg)](github.com/FabianTe/spongecase/actions)
 
 I actually don't know if it is called like that but suit yourself 😉
 
