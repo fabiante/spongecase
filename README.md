@@ -1,4 +1,4 @@
-# Sponge Case
+# sPoNgeCaSE
 
 > Inspired by: https://knowyourmeme.com/memes/mocking-spongebob
 
@@ -20,7 +20,7 @@ THIs Will DEfinateLy bUIld mY RepUTaTiOn AS a soFtWaRe deVelOPER
 
 ## Installation
 
-You can either download prebuild executables from the [Releases tab](https://github.com/FabianTe/sponge-case/releases) or from the the [AUR](https://aur.archlinux.org/packages/sponge-case-git/)
+You can either download prebuild executables from the [Releases tab](https://github.com/FabianTe/spongecase/releases) or from the the [AUR](https://aur.archlinux.org/packages/spongecase-git/)
 
 ## Usage
 

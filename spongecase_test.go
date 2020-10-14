@@ -1,4 +1,4 @@
-package sponge_case
+package spongecase
 
 import (
 	"fmt"
