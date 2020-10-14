@@ -18,6 +18,10 @@ into this ...
 THIs Will DEfinateLy bUIld mY RepUTaTiOn AS a soFtWaRe deVelOPER
 ```
 
+## Installation
+
+You can either download prebuild executables from the [Releases tab](https://github.com/FabianTe/sponge-case/releases) or from the the [AUR](https://aur.archlinux.org/packages/sponge-case-git/)
+
 ## Usage
 
 #### CLI - Piping string into STDIN
