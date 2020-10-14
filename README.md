@@ -2,7 +2,7 @@
 
 > Inspired by: https://knowyourmeme.com/memes/mocking-spongebob
 
-This is both a go module and a command line tool converts strings into "Sponge Case".
+This is both a Go module and a command line tool converts strings into "Sponge Case".
 
 I actually don't know if it is called like that but suit yourself 😉
 
@@ -34,4 +34,23 @@ echo "This will definately build my reputation as a software developer" | sponge
 
 ```shell script
 spongecase "This will definately build my reputation as a software developer"
+```
+
+#### Importing as Go module
+
+```shell script
+go get github.com/FabianTe/spongecase
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"github.com/FabianTe/spongecase"
+)
+
+func main() {
+	fmt.Println(spongecase.ApplyStr("This will definately build my reputation as a software developer"))
+}
 ```
