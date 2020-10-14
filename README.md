@@ -12,7 +12,7 @@ This tool will convert strings like this ...
 This will definitely build my reputation as a software developer
 ```
 
-into this ...
+... into this
 
 ```text
 THIs Will Definitely bUIld mY RepUTaTiOn AS a soFtWaRe deVelOPER
