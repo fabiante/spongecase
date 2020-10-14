@@ -9,13 +9,13 @@ I actually don't know if it is called like that but suit yourself 😉
 This tool will convert strings like this ...
 
 ```text
-This will definately build my reputation as a software developer
+This will definitely build my reputation as a software developer
 ```
 
 into this ...
 
 ```text
-THIs Will DEfinateLy bUIld mY RepUTaTiOn AS a soFtWaRe deVelOPER
+THIs Will Definitely bUIld mY RepUTaTiOn AS a soFtWaRe deVelOPER
 ```
 
 ## Installation
@@ -27,13 +27,13 @@ You can either download prebuild executables from the [Releases tab](https://git
 #### CLI - Piping string into STDIN
 
 ```shell script
-echo "This will definately build my reputation as a software developer" | spongecase
+echo "This will definitely build my reputation as a software developer" | spongecase
 ```
 
 #### CLI - Passing string as argument
 
 ```shell script
-spongecase "This will definately build my reputation as a software developer"
+spongecase "This will definitely build my reputation as a software developer"
 ```
 
 #### Importing as Go module
@@ -51,6 +51,6 @@ import (
 )
 
 func main() {
-	fmt.Println(spongecase.ApplyStr("This will definately build my reputation as a software developer"))
+	fmt.Println(spongecase.ApplyStr("This will definitely build my reputation as a software developer"))
 }
 ```
