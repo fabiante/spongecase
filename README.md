@@ -20,7 +20,7 @@ THIs Will Definitely bUIld mY RepUTaTiOn AS a soFtWaRe deVelOPER
 
 ## Installation
 
-You can either download prebuild executables from the [Releases tab](https://github.com/FabianTe/spongecase/releases) or from the the [AUR](https://aur.archlinux.org/packages/spongecase-git/)
+You can either download prebuild executables from the [Releases tab](https://github.com/FabianTe/spongecase/releases).
 
 ## Usage
 
