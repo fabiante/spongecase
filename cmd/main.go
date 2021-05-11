@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	if len(os.Args) == 2 {
+	if len(os.Args) >= 2 {
 		applyToArgs()
 	} else {
 		applyToStdin()
@@ -26,5 +26,12 @@ func applyToStdin() {
 }
 
 func applyToArgs() {
-	fmt.Println(spongecase.ApplyStr(os.Args[1]))
+	for i, arg := range os.Args[1:] {
+		str := spongecase.ApplyStr(arg)
+		if i < len(os.Args) - 2 {
+			str += " "
+		}
+		fmt.Print(str)
+	}
+	fmt.Println()
 }
