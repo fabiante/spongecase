@@ -48,9 +48,14 @@ package main
 import (
 	"fmt"
 	"github.com/FabianTe/spongecase"
+	"math/rand"
+	"time"
 )
 
 func main() {
+	rand.Seed(time.Now().UTC().UnixNano())
 	fmt.Println(spongecase.ApplyStr("This will definitely build my reputation as a software developer"))
 }
 ```
+
+*Hint: if you want different/random results (similar to the behavior of the command line version), you need to set a seed with `rand.Seed` first (as shown in the example).*
