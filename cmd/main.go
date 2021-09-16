@@ -4,10 +4,13 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/FabianTe/spongecase"
+	"math/rand"
 	"os"
+	"time"
 )
 
 func main() {
+	rand.Seed(time.Now().UTC().UnixNano())
 	if len(os.Args) >= 2 {
 		applyToArgs()
 	} else {
